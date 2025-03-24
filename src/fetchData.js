@@ -1,4 +1,6 @@
-export const fetchData = async (url) => {
+const fetchData = async (url) => {
   console.log(url);
   return url;
 };
+
+module.exports = fetchData;
