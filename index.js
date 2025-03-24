@@ -1,4 +1,4 @@
-const { greet } = require('./fetchData'); // Import the module
+const { greet } = require('./fetchData.js'); // Import the module
 
 module.exports = {
   greet,
