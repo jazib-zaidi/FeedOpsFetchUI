@@ -1,5 +1,3 @@
-const { greet } = require('./src/fetchData.js'); // Import the module
+import { actions } from './fetchData.js';
 
-module.exports = {
-  greet,
-};
+export { actions };
